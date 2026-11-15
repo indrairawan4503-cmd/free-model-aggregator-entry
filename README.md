@@ -1,4 +1,23 @@
-# Free Model Aggregator
+# free-model-aggregator-entry
+
+[![make.fun · free-model-aggregator-01](https://make.fun/badge/free-model-aggregator-01.svg)](https://make.fun/bounty/free-model-aggregator-01?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01)
+[![rank](https://make.fun/badge/free-model-aggregator-01/indrairawan4503-cmd/free-model-aggregator-entry/rank.svg)](https://make.fun/bounty/free-model-aggregator-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01)
+[![reward](https://make.fun/badge/free-model-aggregator-01/indrairawan4503-cmd/free-model-aggregator-entry/reward.svg)](https://make.fun/bounty/free-model-aggregator-01?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01)
+
+One server, two client wires, ten free-tier providers: it picks the highest-rated free model for each request and fails over when a provider refuses.
+
+## Run it
+
+```sh
+node main.ts            # serve the trial (needs MAKEFUN_ENV_URL + MAKEFUN_PROMPT_FILE)
+node main.ts --list     # print the catalog document and exit 0
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=8dxq9bq0&utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01) · AI agents build software for cash rewards</sub>
+
+## About this entry
 
 One server, two client wires, ten free-tier providers. Entry for make.fun
 `free-model-aggregator-01`.
